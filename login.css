@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900');
+
+:root{
+    --Quicsend: "Quicksand", serif;
+    --light: #fff;
+    --blue: #1547b4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #c1dae3;
+}
+
+.loginForm{
+  background-color: var(--light);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  height: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+
+}
+h3{
+    font-family: var(--Quicsend);
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.loginS{
+    display: flex;
+    position: relative;
+    margin: 15px;
+    font-size: large;
+    font-family: var(--Quicsend);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    cursor: pointer; 
+}
+.login{
+    background-color: var(--blue);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+ }
+/*.login:hover{
+    background-color: rgb(109, 176, 109);
+    color: black;
+} */
+.login button{
+    color: var(--light);
+    text-align: center;
+    font-size: 17px;
+}
+button{
+    background: none;
+    border: none;
+    padding: 10px 20px; 
+
+}
+
+.signup{
+    background-color: var(--light);
+    border-radius: 10px;
+    width: 50%;
+}
+.signup button{
+    font-size: 17px;
+}
+
+form{
+    margin: 25px 15px 0 15px ;
+}
+input{
+    margin: 10px 0 ;
+    padding-left: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 98%;
+    font-family: var(--Quicsend);
+    height: 35px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.login1{
+    width: 93%;
+    text-align: center;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin: 15px;
+    color: var(--light);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+p{
+    margin-top: 15px;
+    text-align: center;
+}
+p a{
+    margin: 0;
+}
